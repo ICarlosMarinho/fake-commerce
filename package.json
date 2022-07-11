@@ -23,6 +23,7 @@
     "html-webpack-plugin": "^5.5.0",
     "jest": "^28.1.2",
     "jest-environment-jsdom": "^28.1.2",
+    "jest-transform-stub": "^2.0.0",
     "style-loader": "^3.3.1",
     "ts-jest": "^28.0.5",
     "ts-loader": "^9.3.1",
@@ -38,6 +39,9 @@
     "react-router-dom": "^6.3.0"
   },
   "jest": {
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(css|styl|less|sass|scss|png|jpg|svg|ttf|woff|woff2)$": "jest-transform-stub"
+    }
   }
 }
