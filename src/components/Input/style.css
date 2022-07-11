@@ -1,0 +1,15 @@
+.input {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #cdcdcd;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.error-message {
+  color: #e3371e;
+}
