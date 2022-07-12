@@ -1,7 +1,7 @@
 import { screen, render, fireEvent } from "@testing-library/react";
 import Input from ".";
 
-describe("Tests Input component", () => {
+describe("Input | Unit test , () => {
   it("Should render a label and an input element associated with it", () => {
     const labelText = "Test input";
 
