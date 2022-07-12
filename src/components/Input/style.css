@@ -2,7 +2,7 @@
   height: 30px;
   width: 100%;
   border-radius: 5px;
-  border: 1px solid #cdcdcd;
+  border: none;
 }
 
 .label {
@@ -11,5 +11,5 @@
 }
 
 .error-message {
-  color: #e3371e;
+  color: var(--alert);
 }

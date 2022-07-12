@@ -34,6 +34,10 @@ module.exports = {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
         exclude: /node_modules/
+      },
+      {
+        test: /\.(svg|png)$/i,
+        type: "asset/resource"
       }
     ]
   },

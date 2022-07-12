@@ -1,6 +1,6 @@
 .button {
-  background-color: #ff5a33;
-  color: #fff;
+  background-color: var(--secondary);
+  color: var(--text-primary);
   font-weight: 700;
   border-radius: 50px;
   height: 40px;
