@@ -1,7 +1,7 @@
 import { screen, render, fireEvent } from "@testing-library/react";
 import Button from ".";
 
-describe("Tests Button component", () => {
+describe("Button component | Unit test", () => {
   it("Should render a button with specified text", () => {
     const text = "Click me!";
 
