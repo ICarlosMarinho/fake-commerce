@@ -7,7 +7,7 @@ const Button = ({
   className,
   ...rest
 }: WithChildren<Omit<ButtonHTMLAttributes<HTMLButtonElement>, "children">>) => (
-  <button className={`button${className ? ` ${className}` : ""}`} {...rest}>
+  <button className={`button${className ? ` -${className}` : ""}`} {...rest}>
     {children}
   </button>
 );
