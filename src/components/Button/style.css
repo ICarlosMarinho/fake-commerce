@@ -1,7 +1,8 @@
 .button {
   background-color: var(--secondary);
-  color: var(--text-primary);
-  font-weight: 700;
+  color: var(--text-light);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
   border-radius: 50px;
   height: 40px;
   border: none;
