@@ -32,3 +32,6 @@ export const removeProduct = (id: number, cart: CartItem[]) => {
     return cart.map((item) => (item.id === id ? updated : item));
   }
 };
+
+export const getPrice = (value: number) =>
+  value.toLocaleString("en-us", { style: "currency", currency: "USD" });
